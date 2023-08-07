@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--==================== UNICONS ====================-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/line.css">
+
+    <!--==================== SWIPER CSS====================-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+    <!--==================== CSS ==========-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>Responsive Portfolio Website</title>
+</head>
+
+<body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">CHATCHAWIN</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class="uil uil-estate nav__icon"></i> Home
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">
+                            <i class="uil uil-user nav__icon"></i> About
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class="uil uil-file-alt nav__icon"></i> Skills
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#academic" class="nav__link">
+                            <i class="uil uil-briefcase-alt nav__icon"></i> Academic Profile
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#portfolio" class="nav__link">
+                            <i class="uil uil-scenery nav__icon"></i> Portfolio
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class="uil uil-message nav__icon"></i> Contact
+                        </a>
+                    </li>
+
+                </ul>
+
+                <i class="uil uil-times nav__close" id="nav-close"></i>
+            </div>
+
+            <div class="nav__btns">
+                <!-- Theme change button -->
+                <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="uil uil-apps"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__content grid">
+                    <div class="home__social">
+                    </div>
+
+                    <div class="home__img">
+                        <svg class="home__blob" viewBox="0 0 200 187">
+                            <defs>
+                                <mask id="myMask">
+                                    <rect fill="" rx="15" ry="15" width="185" height="170" />
+                                </mask>
+                            </defs>
+                            <rect id="image" mask="url(#myMask)" fill="" x="0" y="0" width="185" height="170" />
+                            <rect id="border" fill="" stroke="" stroke-width="1" x="0.5" y="0.5" width="185"
+                                height="170" rx="15" ry="15" />
+
+
+                            <!--====================
+                                        Insert your image in the Img folder and Change your image |
+                                        Center your image with X: horizontal, Y: vertical
+                                    ====================-->
+                            <image class="home__blob-img" x="0" y="25" href="assets/img/firstimg.png" />
+                        </svg>
+                    </div>
+
+                    <div class="home__data">
+                        <h2 class="home__title">Tonmai</h2>
+                        <h3 class="home__subtitle">Frontend developer</h3>
+                        <p class="home__description">Feel motivated for creating visually appealing and user experiences
+                            for the business and opt for the application development.</p>
+                        <div class="footer__socials">
+
+                            <a href="https://www.facebook.com/schatchawin/" target="_blank" class="footer__social">
+                                <i class="uil uil-facebook-f"></i>
+                            </a>
+                            <a href="https://www.instagram.com/chat_tonmai/" target="_blank" class="footer__social">
+                                <i class="uil uil-instagram"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/chatchawin-siriteptawee-083387241/" target="_blank"
+                                class="footer__social">
+                                <i class="uil uil-linkedin-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="home__scroll">
+                    <a href="#about" class="home__scroll-button button--flex">
+                        <!-- <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+                        <span class="home__scroll-name">Scroll down</span> -->
+                        <i class="uil uil-arrow-down home__scroll-arrow"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== ABOUT ====================-->
+        <section class="about section" id="about">
+            <div class="home__container__light container grid">
+                <div class="grid about__grid">
+                    <h2 class="section__title">About Me</h2>
+                    <span class="section__subtitle" style="margin-top:-23px;">Personal Profile</span>
+
+                    <div class="about__container container grid">
+                        <svg class="home__blob about__blob" viewBox="0 0 200 187">
+                            <defs>
+                                <mask id="myMask">
+                                    <rect fill="" rx="15" ry="15" width="190" height="180" />
+                                </mask>
+                            </defs>
+                            <rect id="image" mask="url(#myMask)" fill="" x="0" y="0" width="190" height="180" />
+                            <rect id="border" fill="" stroke="" stroke-width="1" x="0.5" y="0.5" width="190"
+                                height="180" rx="15" ry="15" />
+
+
+                            <!--====================
+                                        Insert your image in the Img folder and Change your image |
+                                        Center your image with X: horizontal, Y: vertical
+                                    ====================-->
+                            <image class="about__blob-img" x="15" y="20" style="border-radius: 10px;"
+                                href="assets/img/perfil.png" />
+                        </svg>
+                        <!-- <img src="assets/img/perfil.JPG" alt="" class="about__img"> -->
+
+                        <div class="about__data">
+                            <p class="about__description">I am an engineer who graduated last year from the
+                                Nano-engineering
+                                program with the interest in the computer technology. I was in the project building AI
+                                for DNA analysis from scratch to finish. Accordingly, I am now interested in the mobile
+                                application and looking for the jobs with the involvement of android/iOS application.
+                            </p>
+
+                            <div class="about__info">
+
+
+                            </div>
+
+                            <div class="about__buttons">
+                                <!--==================== Change your CV ====================-->
+                                <a download="" href="assets/pdf/chatchawin_siriteptawee_resume.pdf"
+                                    class="button button--flex" target="_blank">
+                                    Download CV <i class="uil uil-download-alt button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== SKILLS ====================-->
+        <section class="skills section " id="skills">
+            <div class="home__container__light container grid">
+                <h2 class="section__title">Skills</h2>
+                <span class="section__subtitle"></span>
+
+                <div class="skills__container container ">
+
+                    <!--=============== SKILLS 1 ===============-->
+
+                    <div class="skills__content">
+                        <div class="skills__header">
+                            <i class="uil uil-swatchbook skills__icon"></i>
+
+                            <div>
+                                <h1 class="skills__title">My Skills and Competencies</h1>
+                                <span class="skills__subtitle"></span>
+                            </div>
+
+                        </div>
+
+                        <div>
+                            <div class="skills__list grid">
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Java, Python, and SQL</h3>
+
+                                    </div>
+                                    <div class="skills__bar">
+
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Html, Css, Javascript and jQuery</h3>
+
+                                    </div>
+                                    <div class="skills__bar">
+
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Jinja2, React, Angular</h3>
+
+                                    </div>
+                                    <div class="skills__bar">
+
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">CAD design</h3>
+
+                                    </div>
+                                    <div class="skills__bar">
+
+                                    </div>
+                                </div>
+
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Matlab</h3>
+
+                                    </div>
+                                    <div class="skills__bar">
+
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Creative and critical thinking</h3>
+
+                                    </div>
+                                    <div class="skills__bar">
+
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Strong communication</h3>
+
+                                    </div>
+                                    <div class="skills__bar">
+
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Fluency in English and Thai</h3>
+
+                                    </div>
+                                    <div class="skills__bar">
+
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+
+        <!--==================== Academic Profile ====================-->
+        <section class="qualification section" id="academic">
+            <h2 class="section__title">Academic Profile</h2>
+
+            <div class="academic__about">
+                <p class="academic__description"> Chulalongkorn University,
+                    The bachelor’s degree of Nano-Advanced Material Program 
+                </p>
+                <p class="academic__description"> International School of Engineering (ISE)
+                </p>
+            </div>
+            
+            <div class="qualification__container container">
+                <h4 class="academic__subtitle">My Projects</h4>
+                <div class="qualification__tabs">
+                    <div class="qualification__button button--flex qualification__active" data-target="#education">
+                        <i class="uil uil-graduation-cap qualification__icon"></i>
+                        University
+                    </div>
+
+                    <div class="qualification__button button--flex" data-target="#work">
+                        <i class="uil uil-briefcase-alt qualification__icon"></i>
+                        Work
+                    </div>
+                </div>
+
+                <div class="qualification__sections"">
+                    <!--=============== QUALIFICATION CONTENT 1 ===============-->
+                    <div class=" qualification__content qualification__active" data-content id="education">
+                    <!--=============== QUALIFICATION 1 ===============-->
+                    <div class="qualification__data">
+                        <div>
+                            <h3 class="qualification__title">License Plate Detection </h3>
+                            <span class="qualification__subtitle"></span>
+                            <div class="qualification__calendar_uni">
+                                <i class="uil uil-calendar-alt"></i>
+                                2022
+                            </div>
+                        </div>
+
+                        <div>
+                            <span class="qualification__rounder"></span>
+                            <span class="qualification__line"></span>
+                        </div>
+                    </div>
+
+                    <!--=============== QUALIFICATION 2 ===============-->
+                    <div class="qualification__data">
+                        <div></div>
+
+                        <div>
+                            <span class="qualification__rounder"></span>
+                            <span class="qualification__line"></span>
+                        </div>
+
+                        <div>
+                            <h3 class="qualification__title">IOT prject: Line Notification for Parcel Delivery</h3>
+                            <span class="qualification__subtitle"></span>
+                            <div class="qualification__calendar_uni">
+                                <i class="uil uil-calendar-alt"></i>
+                                2021
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--=============== QUALIFICATION 3 ===============-->
+                    <div class="qualification__data">
+                        <div>
+                            <h3 class="qualification__title">Tracking Line Vehiclese for Manufacturing Process</h3>
+                            <span class="qualification__subtitle"></span>
+                            <div class="qualification__calendar_uni">
+                                <i class="uil uil-calendar-alt"></i>
+                                2021
+                            </div>
+                        </div>
+
+                        <div>
+                            <span class="qualification__rounder"></span>
+                            <span class="qualification__line"></span>
+                        </div>
+                    </div>
+
+                    <!--=============== QUALIFICATION 4 ===============-->
+                    <div class="qualification__data">
+                        <div></div>
+
+                        <div class="qualification__time">
+                            <span class="qualification__rounder"></span>
+                            <!-- <span class="qualification__line"></span> -->
+                        </div>
+
+                        <div>
+                            <h3 class="qualification__title">Humidity Sensors for Automatic Window</h3>
+                            <span class="qualification__subtitle"></span>
+                            <div class="qualification__calendar_uni">
+                                <i class="uil uil-calendar-alt"></i>
+                                2020
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--=============== QUALIFICATION CONTENT 2 ===============-->
+                <div class="qualification__content" data-content id="work">
+                    <!--=============== QUALIFICATION 1 ===============-->
+                    <div class="qualification__data">
+                        <div>
+                            <h3 class="qualification__title">Athena Project</h3>
+                            <span class="qualification__subtitle">Web application using AI to analyze DNA</span>
+                            <div class="qualification__calendar">
+                                <i class="uil uil-calendar-alt"></i>
+                                Aug 2022 - Present
+                            </div>
+                        </div>
+
+                        <div>
+                            <span class="qualification__rounder"></span>
+                            <span class="qualification__line"></span>
+                        </div>
+                    </div>
+
+                    <!--=============== QUALIFICATION 2 ===============-->
+                    <div class="qualification__data">
+                        <div></div>
+
+                        <div class="qualification__time">
+                            <span class="qualification__rounder"></span>
+                            <span class="qualification__line"></span>
+                        </div>
+
+                        <div>
+                            <h3 class="qualification__title">Clinical Lab Web</h3>
+                            <span class="qualification__subtitle">Web application for data management in hospital</span>
+                            <div class="qualification__calendar">
+                                <i class="uil uil-calendar-alt"></i>
+                                Jan 2023
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="qualification__data">
+                        <div>
+                            <h3 class="qualification__title">Muto World</h3>
+                            <span class="qualification__subtitle">Business web</span>
+                            <div class="qualification__calendar">
+                                <i class="uil uil-calendar-alt"></i>
+                                April - June 2023
+                            </div>
+                        </div>
+
+                        <div>
+                            <span class="qualification__rounder"></span>
+                            <!-- <span class="qualification__line"></span> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <!--==================== PORTFOLIO ====================-->
+        <section class="portfolio section" id="portfolio">
+            <h2 class="section__title">Portfolio</h2>
+            <span class="section__subtitle">Recent work</span>
+
+            <div class="portfolio__container container swiper-container">
+                <div class="swiper-wrapper">
+                    <!--=============== PORTFOLIO 1 ===============-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/img/muto.png" alt="" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Business Web</h3>
+                            <p class="portfolio__description">Muto World : Modern website with UI components and interactions design</p>
+                            <a href="https://www.mutoworld.bio" target="_blank" class="button button--flex button--small portfolio__button">
+                                Visit
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!--=============== PORTFOLIO 2 ===============-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/img/Athena.png" alt="" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Web Application</h3>
+                            <p class="portfolio__description">AthenaAI : web application using AI to analyze DNA(WES) with panel lists or genes and HPO term customization </p>
+                            <a href="https://platform.athenaai.co/" target="_blank" class="button button--flex button--small portfolio__button">
+                                Visit
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!--=============== PORTFOLIO 3 ===============-->
+                    <!-- <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/img/portfolio3.jpg" alt="" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Online store</h3>
+                            <p class="portfolio__description">Website adaptable to all devices, with ui components
+                                and animated interactions.</p>
+                            <a href="#" class="button button--flex button--small portfolio__button">
+                                Demo
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div> -->
+                </div>
+
+                <div class="swiper-button-next">
+                    <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                </div>
+                <div class="swiper-button-prev">
+                    <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                </div>
+
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer" id="contact">
+        <div class="footer__bg">
+            <div class="footer__container container grid">
+                <div>
+                    <h2 class="footer__title">Chatchawin</h2>
+                    <h2 class="footer__title">Siriteptawee</h2>
+                </div>
+                <div>
+
+                </div>
+
+                <div>
+                    <div class="contact__information">
+                        <i class="uil uil-phone contact__icon"></i>
+                        <div>
+                            <h3 class="contact__title">Tel.</h3>
+                            <span class="contact__subtitle">(+66)987460315</span>
+                        </div>
+                    </div>
+
+                    <div class="contact__information">
+                        <i class="uil uil-envelope contact__icon"></i>
+                        <div>
+                            <h3 class="contact__title">Email</h3>
+                            <span class="contact__subtitle">actuallystonmai@gmail.com</span>
+                        </div>
+                    </div>
+
+                    <div class="contact__information">
+                        <i class="uil uil-map-marker contact__icon"></i>
+                        <div>
+                            <h3 class="contact__title">Location</h3>
+                            <span class="contact__subtitle">599/252 Supalai loft, Ratchadapisek road (Taphra-Taksin),
+                                Bukkalo, Thonburi District, Bangkok, Thailand, 10600.
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+    </footer>
+
+    <!--========== SCROLL TOP ==========-->
+    <a href="#" class="scrollup" id="scroll-top">
+        <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
+
+    <!--==================== SWIPER JS ====================-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--==================== MAIN JS ====================-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
