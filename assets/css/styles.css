@@ -98,7 +98,7 @@ body.dark-theme {
 }
 
 .change-theme:hover {
-  color: var(--first-color);
+  color: var(--first-color-third);
 }
 
 /*==================== BASE ====================*/
@@ -203,7 +203,7 @@ img {
 }
 
 .nav__toggle:hover {
-  color: var(--first-color);
+  color: var(--first-color-third);
 }
 
 @media screen and (max-width: 767px) {
@@ -253,6 +253,10 @@ img {
   bottom: .5rem;
   font-size: 1.5rem;
   cursor: pointer;
+  color: var(--title-color);
+}
+
+.nav__close:hover {
   color: var(--first-color-third);
 }
 
