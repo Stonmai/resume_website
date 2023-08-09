@@ -253,11 +253,7 @@ img {
   bottom: .5rem;
   font-size: 1.5rem;
   cursor: pointer;
-  color: var(--first-color);
-}
-
-.nav__close:hover {
-  color: var(--first-color-alt);
+  color: var(--first-color-third);
 }
 
 /* show menu */
